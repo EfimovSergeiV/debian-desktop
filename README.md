@@ -1,7 +1,7 @@
 # Настройка Shell
 Используем Adapta-Nikto-Eta и Papirus
 ```
-sudo apt install gnome-tweaks adapta-gtk-theme papirus-icon-theme
+sudo apt install gnome-tweaks adapta-gtk-theme arc-theme papirus-icon-theme
 ```
 # Расширения
 ```
@@ -24,7 +24,7 @@ sudo apt install zsh fonts-powerline
 zsh
 ENTER (2)
 chsh
-INPUT /bin/zsh
+Ввести /bin/zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 cd .oh-my-zsh/plugins
 ```
@@ -176,3 +176,6 @@ case ":$PATH:" in
 esac
 # pnpm end% 
 ```
+
+
+Путь до курсоров  /usr/share/icons
