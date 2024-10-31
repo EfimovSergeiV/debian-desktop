@@ -178,4 +178,9 @@ esac
 ```
 
 
-Путь до курсоров  /usr/share/icons
+
+```bash
+# Путь до курсоров  /usr/share/icons
+
+sudo mv DMZhaloA32 /usr/share/icons
+```
