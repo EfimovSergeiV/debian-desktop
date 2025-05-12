@@ -184,3 +184,15 @@ esac
 
 sudo mv DMZhaloA32 /usr/share/icons
 ```
+
+
+```zsh
+# Монтирование дисков, smb шар
+sudo apt install nfs-common cifs-utils
+sudo nano /etc/fstab
+
+//192.168.60.248/storage-t/ /home/user/STORAGE-T/ cifs credentials=/home/user/.access.txt,uid=1000,gid=1000 0 0
+
+UUID=462F325C5EF028C8   /STORE/HDD0   ntfs  defaults  0	2
+UUID=730CE51142710AB7   /STORE/HDD1   ntfs  defaults  0 2
+```
